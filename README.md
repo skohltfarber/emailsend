@@ -1,17 +1,13 @@
 # emailsend
 
-A new Flutter project.
+Here is a quick form to send an email. You have some flexibility to make changes. 
 
-## Getting Started
+There are changes with the image_picker api. You will need to make some changes in the future. 
 
-This project is a starting point for a Flutter application.
+This is old api. 
+File image = await ImagePicker.pickImage(...)	
 
-A few resources to get you started if this is your first Flutter project:
+This is the new api.
+PickedFile image = await _picker.getImage(...)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# emailsend
+More details on https://pub.dev/packages/image_picker
